@@ -1,0 +1,31 @@
+Algoritmo Ultimo_Ejercicio
+	
+	Definir CostoEntrada Como Real
+	Definir Dia, Edad Como Entero
+	Definir Sexo Como Caracter
+	Definir Descuento, MontoDescuento, CostoFinal Como Real
+	
+	Escribir "Ingrese su nombre: "
+	Leer Nombre
+	Repetir
+		Escribir "¿Cuantas llantas va comprar?"
+		Leer Cantidad
+	Hasta Que Cantidad <= 12
+	Mo <- Cantidad*250
+	Mi <- Mo*0.20
+	Po<- Mo-Mi
+	Escribir "Total sin Descuento:"
+	Escribir Mo
+	Escribir "Resultado del decuento del 20%:"    
+	Escribir Po
+	
+	Repetir
+		Escribir "¿Cuantas llantas desea comprar?"
+		Leer Cantidad
+	Hasta Que Cantidad >= 12
+	Mu <- Cantidad*220
+	Ma <- Mu*0.25
+	Pa<- Mu-Ma
+	Escribir "Resultado del decuento del 25%:"    
+	Escribir Pa
+FinAlgoritmo
